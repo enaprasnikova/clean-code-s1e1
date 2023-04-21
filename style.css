@@ -1,5 +1,5 @@
 /* Basic Style */
-body {
+.body {
   background-color: #f8f8f8;
   color: #333;
   font-family: Lato, sans-serif;
@@ -57,6 +57,7 @@ body {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
+  outline:none;
 }
 
 .form__input {
@@ -78,6 +79,7 @@ body {
   width: 60px;
   font-family: Lato, sans-serif;
   cursor: pointer;
+  outline:none;
 }
 
 .button:hover {
@@ -156,12 +158,6 @@ body {
 }
 
 /* Heading */
-
-
-
-input,button{
-  outline:none;
-}
 
 
 /* New Task */
